@@ -28,7 +28,7 @@ document.querySelector('input[type=submit]')
     precoProduto.value = "";
 
     let elementoSoma = document.querySelector('.soma-produto h1');
-    elementoSoma.innerHTML = 'R$'+soma;
+    elementoSoma.innerHTML = 'Total:R$'+soma;
 
     
 });
@@ -38,5 +38,5 @@ document.querySelector('button[name=limpar]')
     items = [];
     
     document.querySelector('.lista-produtos').innerHTML = "";
-    document.querySelector('.soma-produto h1').innerHTML= "R$0";
+    document.querySelector('.soma-produto h1').innerHTML= "Total: R$0";
 })
