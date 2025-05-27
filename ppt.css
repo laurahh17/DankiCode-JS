@@ -1,0 +1,26 @@
+.nomejogo{
+    text-align: center;
+}
+
+.player-options,.enemy-options{
+    width: 50%;
+    text-align: center; 
+}
+.player-options img{
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.enemy-options img{
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.alinhamento{
+    display: flex;
+}
+
+.vencedor{
+    text-align: center;
+    font-size: 2em;
+}
